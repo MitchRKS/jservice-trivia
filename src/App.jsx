@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="Header">Alek Trebex's Reverse Mortgage Sales Platform</h1>
+      <h1 className="Header">Let's Play A Trivia Game!</h1>
       <p>Player Score: {score}</p>
       <button className="Button" onClick={upScore}>
         Add 100
