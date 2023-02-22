@@ -8,7 +8,7 @@ function App() {
 
   const getClue = async () => {
     try {
-      const response = await fetch(`http://jservice.io/api/random?count=1`);
+      const response = await fetch(`https://jservice.io/api/random?count=1`);
       const data = await response.json();
       setClue(data);
     } catch (error) {
